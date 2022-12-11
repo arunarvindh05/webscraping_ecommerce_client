@@ -77,7 +77,7 @@ const ProductListPage = () => {
             list="products"
             className='search-input'
             onChange={handleSearchChange}
-            placeholder='eg. iphone 12'
+            placeholder='eg. iphone 14'
           />
           <datalist id="products">
             {productArray.map((item) =>
